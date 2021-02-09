@@ -1,0 +1,3 @@
+{:libraries {:maven [com.taoensso/timbre]
+             :local []
+             :git   []}}

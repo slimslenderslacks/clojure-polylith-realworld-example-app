@@ -1,0 +1,7 @@
+{:libraries {:maven [clj-time/clj-time
+                     honeysql/honeysql
+                     metosin/spec-tools
+                     org.clojure/java.jdbc
+                     slugger/slugger]
+             :local []
+             :git   []}}

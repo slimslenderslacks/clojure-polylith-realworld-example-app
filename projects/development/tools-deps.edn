@@ -1,0 +1,12 @@
+{:poly {:main-opts  ["-m" "polylith.clj.core.poly-cli.core"]
+        :extra-deps {polyfy/polylith
+                     {:git/url   "https://github.com/polyfy/polylith.git"
+                      :sha       "57b1b77601cde2a571f0d019501f5c3e9c774fe7"
+                      :deps/root "projects/poly"}}}
+
+ :ring {:extra-deps {furkan3ayraktar/polylith-clj-deps-ring
+                     {:git/url   "https://github.com/furkan3ayraktar/polylith-clj-deps-ring.git"
+                      :sha       "15e5ab1cef84d574c3e49f5335a0dadb831445ce"
+                      :deps/root "projects/core"}}
+
+        :main-opts  ["-m" "polylith.clj-deps-ring.cli.main" "start"]}}

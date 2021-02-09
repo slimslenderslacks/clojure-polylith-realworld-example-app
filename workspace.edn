@@ -1,0 +1,10 @@
+{:vcs                  "git"
+ :top-namespace        "clojure.realworld"
+ :interface-ns         "interface"
+ :default-profile-name "default"
+ :input-file-format    "edn"
+ :compact-views        #{}
+ :release-tag-pattern  "v[0-9]*"
+ :stable-tag-pattern   "stable-*"
+ :project-to-alias     {"development"       "dev"
+                        "realworld-backend" "rb"}}

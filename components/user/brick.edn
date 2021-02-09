@@ -1,0 +1,8 @@
+{:libraries {:maven [clj-jwt/clj-jwt
+                     clj-time/clj-time
+                     crypto-password/crypto-password
+                     honeysql/honeysql
+                     metosin/spec-tools
+                     org.clojure/java.jdbc]
+             :local []
+             :git   []}}

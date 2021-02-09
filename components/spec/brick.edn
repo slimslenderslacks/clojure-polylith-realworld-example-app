@@ -1,0 +1,3 @@
+{:libraries {:maven [metosin/spec-tools]
+             :local []
+             :git   []}}

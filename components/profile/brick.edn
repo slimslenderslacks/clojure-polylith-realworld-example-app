@@ -1,0 +1,5 @@
+{:libraries {:maven [honeysql/honeysql
+                     metosin/spec-tools
+                     org.clojure/java.jdbc]
+             :local []
+             :git   []}}
