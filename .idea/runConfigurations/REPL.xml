@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="REPL" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
-    <module name="clojure-polylith-realworld-example-app" />
+    <module name="clojure-polylith-realworld-example-app-1" />
+    <setting name="displayName" value="REPL" />
     <setting name="replType" value="NREPL" />
     <setting name="execution" value="DEPS" />
     <setting name="jvmArgs" value="" />
@@ -11,7 +11,5 @@
     <setting name="aliases" value="dev,test" />
     <setting name="fixLineNumbers" value="false" />
     <method v="2" />
-    <setting name="displayName" value="REPL" />
   </configuration>
 </component>
-

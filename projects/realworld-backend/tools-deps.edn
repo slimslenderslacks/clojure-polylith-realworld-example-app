@@ -1,24 +1,4 @@
-{:paths     ["../../components/article/src"
-             "../../components/article/resources"
-             "../../components/comment/src"
-             "../../components/comment/resources"
-             "../../components/database/src"
-             "../../components/database/resources"
-             "../../components/env/src"
-             "../../components/env/resources"
-             "../../components/log/src"
-             "../../components/log/resources"
-             "../../components/profile/src"
-             "../../components/profile/resources"
-             "../../components/spec/src"
-             "../../components/spec/resources"
-             "../../components/tag/src"
-             "../../components/tag/resources"
-             "../../components/user/src"
-             "../../components/user/resources"
-
-             "../../bases/rest-api/resources"
-             "../../bases/rest-api/src"]
+{
 
  :ring      {:init    clojure.realworld.rest-api.api/init
              :destroy clojure.realworld.rest-api.api/destroy
