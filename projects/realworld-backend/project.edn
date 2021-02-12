@@ -1,5 +1,6 @@
 
-{:components ["article"
+{:alias      "rb"
+ :components ["article"
               "comment"
               "database"
               "env"
@@ -9,6 +10,5 @@
               "tag"
               "user"]
  :bases ["rest-api"]
- :libraries {:maven {org.clojure/clojure "1.10.0"}}
  :test-libs {}
  :tests {:include :all}}
