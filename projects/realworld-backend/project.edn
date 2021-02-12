@@ -10,5 +10,6 @@
               "tag"
               "user"]
  :bases ["rest-api"]
+ :override-libs {}
  :test-libs {}
  :tests {:include :all}}

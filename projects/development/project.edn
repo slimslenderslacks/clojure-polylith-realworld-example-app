@@ -12,5 +12,6 @@
  :bases      ["rest-api"]
  :profiles   {:default ["user"]
               :admin   ["admin"]}
+ :override-libs {}
  :test-libs {}
  :tests {:include :all}}
