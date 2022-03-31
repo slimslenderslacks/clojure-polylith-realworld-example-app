@@ -1,0 +1,23 @@
+{:mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://clojars.org/repo"}}
+
+ :deps      {poly/article  {:local/root "../../components/article"}
+             poly/comment  {:local/root "../../components/comment"}
+             poly/database {:local/root "../../components/database"}
+             poly/env      {:local/root "../../components/env"}
+             poly/log      {:local/root "../../components/log"}
+             poly/profile  {:local/root "../../components/profile"}
+             poly/spec     {:local/root "../../components/spec"}
+             poly/tag      {:local/root "../../components/tag"}
+             poly/user     {:local/root "../../components/user"}
+             poly/rest-api {:local/root "../../bases/rest-api"}
+
+             org.clojure/clojure {:mvn/version "1.10.3"}}
+
+ :aliases   {:jib     {:deps {io.github.atomisthq/jibbit
+                              {:local/root "/Users/slim/atmhq/jibbit"}
+                              #_{:git/url "https://github.com/atomisthq/jibbit.git"
+                                 :sha "41d71f062acabc4e8469adb94e0ccfb51ab19541"}}
+                       :ns-default jibbit.core}
+
+             :ring {:main-opts  ["-m" "clojure.realworld.rest-api.main"]}}}
