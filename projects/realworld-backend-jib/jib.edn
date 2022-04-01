@@ -1,5 +1,6 @@
 {:aliases [:ring]
  :base-image {:image-name "openjdk:11-slim-buster"
               :type :registry}
+ :user "0"
  :target-image {:type :docker
                 :image-name "realworld-backend"}}
